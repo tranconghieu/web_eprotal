@@ -3,6 +3,7 @@ body {
     
 
 }
+/* HieuTran */
 .row {
     margin: 10px !important;
 }
@@ -39,7 +40,7 @@ body {
 .footer p {
     margin: 0px !important;
 }
-
+/*====================== */
 /* hien dinh */
 .myclass-title{
     color: gray;
@@ -61,6 +62,7 @@ body {
 }
 
 /*====================== */
+/* HieuTran */
 #content {
     min-height: calc(100vh - 56px - 20px - 50px );
     background-color: #679efb;
@@ -103,6 +105,7 @@ body {
     line-height: 60px;
     /* margin: 0 auto; */
     padding: 0px 16px;
+    
 }
 .tabbar_buttom .list_icon .li-link {
     display: inline-table;
@@ -112,10 +115,12 @@ body {
     padding: 0px;
 }
 .tabbar_buttom .list_icon .li-link a i{
-    font-size: 9vw;
+    font-size: 32px;
 }
 
 .tabbar_buttom .list_icon .li-link .active {
     color: rgb(255, 238, 0);
     padding: 0px;
 }
+
+/*====================== */
