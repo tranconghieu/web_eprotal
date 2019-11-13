@@ -77,9 +77,12 @@ body {
 .number-session{
     text-align: right;
 }
-#class{
-    width: 70%;
-    margin: auto;
+
+@media only screen and (min-width: 767px) { 
+    #class{
+        width: 70%;
+        margin: auto;
+    }
 }
 /*678.phone*/
 @media only screen and (max-width: 767px) { 
