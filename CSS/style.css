@@ -1,0 +1,121 @@
+
+body {
+    
+
+}
+.row {
+    margin: 10px !important;
+}
+.header_top {
+    background-color: #679efb !important;
+    border:  none !important;
+    max-height: 56px;
+    border-radius:  0px !important;
+
+}
+.header_top .collapse  li a {
+    color: #ffff;
+    transition : background 1s;
+    font-weight: 500;
+}
+
+
+.header_top .collapse  li a:hover {
+    color: rgb(255, 238, 0);
+
+    
+}
+.header_top .collapse  li .menu_active {
+    color: rgb(255, 238, 0);
+}
+.footer {
+    background-color: #679efb;
+    height: 50px;
+    line-height: 50px;
+    color: #ffff;
+    text-align: center;
+  
+}
+.footer p {
+    margin: 0px !important;
+}
+
+/* hien dinh */
+.myclass-title{
+    color: gray;
+    margin-bottom: 50px;
+}
+.container a{
+    color: gray !important;
+}
+.container a:hover{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+.jumbotron{
+    background: #4285F4 !important;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+}
+
+/*====================== */
+#content {
+    min-height: calc(100vh - 56px - 20px - 50px );
+    background-color: #679efb;
+    padding-bottom: 60px;
+}
+.tabbar_buttom {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #679efb;
+    border-top: 10px solid #ffff;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: none;
+        
+    }
+    .li-link {
+        display: none;
+    }
+    
+    .header_top .collapse {
+        z-index: 999999999999999999999;
+       
+        position: absolute;
+        right: 0;
+        display: inline !important;
+    }
+    .tabbar_buttom{
+        display: inline;
+    }
+}
+
+.tabbar_buttom .list_icon {
+    justify-content: space-between;
+    display: flex;
+    line-height: 60px;
+    /* margin: 0 auto; */
+    padding: 0px 16px;
+}
+.tabbar_buttom .list_icon .li-link {
+    display: inline-table;
+}
+.tabbar_buttom .list_icon .li-link a {
+    color: #ffff;
+    padding: 0px;
+}
+.tabbar_buttom .list_icon .li-link a i{
+    font-size: 9vw;
+}
+
+.tabbar_buttom .list_icon .li-link .active {
+    color: rgb(255, 238, 0);
+    padding: 0px;
+}
