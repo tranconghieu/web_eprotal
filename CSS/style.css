@@ -6,6 +6,7 @@ body {
 /* HieuTran */
 .row {
     margin: 10px !important;
+    padding-top: 5px !important;
 }
 .header_top {
     background-color: #679efb !important;
@@ -45,6 +46,17 @@ body {
 .myclass-title{
     color: gray;
     margin-bottom: 50px;
+    
+}
+.class-type{
+    background-color: #f9f3f3f7;
+}
+
+.container{
+    padding: 0px !important;
+}
+.nav-tabs li a{
+    font-size: 20px;
 }
 .container a{
     color: gray !important;
@@ -54,11 +66,38 @@ body {
     color: black !important;
 }
 
-
+.class-type-time p{
+    text-align: right;
+}
 .jumbotron{
     background: #4285F4 !important;
     margin-top: 10px;
     margin-bottom: 0px !important;
+}
+.number-session{
+    text-align: right;
+}
+#class{
+    width: 70%;
+    margin: auto;
+}
+/*678.phone*/
+@media only screen and (max-width: 767px) { 
+    .number-session{
+        font-size: 13px !important;
+    }
+    .col-6, .col-5, .col-7, .col-12{
+        padding: 0px !important;
+    }
+    .nav-tabs a{
+        font-size: 10px !important;
+    }
+    .class-type-time p{
+        font-size: 9px !important;
+    }
+    .class-type h5{
+        font-size: 12px !important;
+    }
 }
 
 /*====================== */
