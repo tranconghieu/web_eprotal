@@ -6,7 +6,7 @@ body {
 /* HieuTran */
 .row {
     margin: 10px !important;
-    padding-top: 5px !important;
+    padding-top: 10px !important;
 }
 .header_top {
     background-color: #679efb !important;
@@ -78,11 +78,14 @@ body {
     text-align: right;
 }
 
-@media only screen and (min-width: 767px) { 
+@media only screen and (min-width: 769px) { 
     #class{
         width: 70%;
         margin: auto;
     }
+}
+.class-type-time p{
+  font-weight: 500;
 }
 /*678.phone*/
 @media only screen and (max-width: 767px) { 
@@ -93,10 +96,11 @@ body {
         padding: 0px !important;
     }
     .nav-tabs a{
-        font-size: 10px !important;
+        font-size: 9px !important;
     }
     .class-type-time p{
         font-size: 9px !important;
+      
     }
     .class-type h5{
         font-size: 12px !important;
@@ -140,7 +144,7 @@ body {
         display: inline;
     }
     #content {
-    padding-bottom: 60px;
+    padding-bottom: 60px !important ;
     padding-left: 0px;
    
     padding-right: 0px;
