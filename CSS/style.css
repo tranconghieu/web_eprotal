@@ -1,47 +1,47 @@
+body {}
 
-body {
-    
-
-}
 /* HieuTran */
+
 .row {
-    margin: 10px !important;
-    padding-top: 10px !important;
+  margin: 10px !important;
+  /* padding-top: 5px !important; */
 }
+
 .header_top {
-    background-color: #679efb !important;
-    border:  none !important;
-    max-height: 56px;
-    border-radius:  0px !important;
-
-}
-.header_top .collapse  li a {
-    color: #ffff;
-    transition : background 1s;
-    font-weight: 500;
+  background-color: #679efb !important;
+  border: none !important;
+  max-height: 56px;
+  border-radius: 0px !important;
 }
 
-
-.header_top .collapse  li a:hover {
-    color: rgb(255, 238, 0);
-
-    
+.header_top .collapse li a {
+  color: #ffff;
+  transition: background 1s;
+  font-weight: 500;
 }
-.header_top .collapse  li .menu_active {
-    color: rgb(255, 238, 0);
+
+.header_top .collapse li a:hover {
+  color: rgb(255, 238, 0);
 }
+
+.header_top .collapse li .menu_active {
+  color: rgb(255, 238, 0);
+}
+
 .footer {
-    background-color: #679efb;
-    height: 50px;
-    line-height: 50px;
-    color: #ffff;
-    text-align: center;
-  
+  background-color: #679efb;
+  height: 50px;
+  line-height: 50px;
+  color: #ffff;
+  text-align: center;
 }
+
 .footer p {
-    margin: 0px !important;
+  margin: 0px !important;
 }
+
 /*====================== */
+
 /* hien dinh */
 
 #file{
@@ -61,30 +61,35 @@ body {
     margin-top: 20px;
 }
 
-.container{
-    padding: 0px !important;
-}
-.nav-tabs li a{
-    font-size: 20px;
-}
-.container a{
-    color: gray !important;
-}
-.container a:hover{
-    text-decoration: none !important;
-    color: black !important;
+.container {
+  padding: 0px !important;
 }
 
-.class-type-time p{
-    text-align: right;
+.nav-tabs li a {
+  font-size: 20px;
 }
-.jumbotron{
-    background: #4285F4 !important;
-    margin-top: 10px;
-    margin-bottom: 0px !important;
+
+.container a {
+  color: gray !important;
 }
-.number-session{
-    text-align: right;
+
+.container a:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.class-type-time p {
+  text-align: right;
+}
+
+.jumbotron {
+  background: #4285F4 !important;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+.number-session {
+  text-align: right;
 }
 
 /*FEEDBACK-*/
@@ -215,20 +220,21 @@ body {
 }
 
 /*====================== */
+
 /* HieuTran */
+
 #content {
-    min-height: calc(100vh - 56px - 20px - 50px );
-    
-  
+  min-height: calc(100vh - 56px - 20px - 50px);
 }
+
 .tabbar_buttom {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background: #679efb;
-    border-top: 10px solid #ffff;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #679efb;
+  border-top: 10px solid #ffff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -259,288 +265,314 @@ body {
 }
 
 .tabbar_buttom .list_icon {
-    justify-content: space-between;
-    display: flex;
-    line-height: 60px;
-    /* margin: 0 auto; */
-    padding: 0px 16px;
-    
+  justify-content: space-between;
+  display: flex;
+  line-height: 60px;
+  /* margin: 0 auto; */
+  padding: 0px 16px;
 }
+
 .tabbar_buttom .list_icon .li-link {
-    display: inline-table;
+  display: inline-table;
 }
+
 .tabbar_buttom .list_icon .li-link a {
-    color: #ffff;
-    padding: 0px;
+  color: #ffff;
+  padding: 0px;
 }
-.tabbar_buttom .list_icon .li-link a i{
-    font-size: 32px;
+
+.tabbar_buttom .list_icon .li-link a i {
+  font-size: 32px;
 }
 
 .tabbar_buttom .list_icon .li-link .active {
-    color: rgb(255, 238, 0);
-    padding: 0px;
+  color: rgb(255, 238, 0);
+  padding: 0px;
 }
 
 /* Hieutran learning */
 
 #learning {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
+
 #content .learning .title {
-    text-align: center;
-    color:  gray;
+  text-align: center;
+  color: gray;
+  padding-bottom: 5px;
 }
+
 #content .learning .title img {
-    width: 60px;
+  width: 60px;
+}
+
+#content .learning .name_class {
+  margin-bottom: 20px;
 }
 
 /*===== Vertical Timeline =====*/
+
 #conference-timeline {
-    position: relative;
-    /* max-width: 920px; */
-    width: 100%;
-    margin-left: 35px;
-    margin-top: 20px;
-  }
-  #conference-timeline .timeline-start,
-  #conference-timeline .timeline-end {
-    display: table;
-    font-weight: 700;
-    text-transform: uppercase;
-    background: #4285F4;
-    padding: 15px 20px;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    border-radius: 100%;
-    box-shadow: 1px black;
-    width: 77px;
-    font-size: 13px;
-    height: 62px;
-    height: 73px;
+  position: relative;
+  /* max-width: 920px; */
+  width: 100%;
+  margin-left: 35px;
+  margin-top: 0px;
+}
 
-  }
-  #conference-timeline .conference-center-line {
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    top: 0;
-    left: 39px;
+#conference-timeline .timeline-start, #conference-timeline .timeline-end {
+  display: table;
+  border: 2px solid #4285f4;
+  background: #ffffff;
+  padding: 15px 20px;
+  color: #5f5f5f;
+  width: 100%;
+  text-align: center;
+  border-radius: 100%;
+  box-shadow: 1px black;
+  width: 62px;
+  height: 60px;
+  margin-left: 7px;
+}
 
-    /* margin-left: -2px; */
-    background:  #4285F4;
-    z-index: -1;
-  }
+#conference-timeline .conference-center-line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 39px;
+  /* margin-left: -2px; */
+  background: #4285F4;
+  z-index: -1;
+}
 
-  
-  #conference-timeline .conference-timeline-content {
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
-  .timeline-article {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
-    
-  }
+#conference-timeline .conference-timeline-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
-  .timeline-article .content-left-container,
-  .timeline-article .content-right-container {
-    /* max-width: 44%; */
-    width: 100%;
-  }
-  .timeline-article .timeline-author {
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #242424;
-    text-align: right;
-  }
-  .timeline-article .content-left,
-  .timeline-article .content-right {
-    position: relative;
-    width: auto;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,.03);
-    padding: 15px 30px;
-    left: 10%;
-    width: 90%;
-  }
-  .timeline-article p {
-    margin: 0 0 0 60px;
-    padding: 0;
-    font-weight: 400;
-    color: #242424;
-    font-size: 14px;
-    line-height: 24px;
-    position: relative;
-  }
-  
-  .timeline-article .content-left-container {
-    float: left;
-  }
+.timeline-article {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
 
-  .timeline-article .content-left:before,
+.timeline-article .content-left-container, .timeline-article .content-right-container {
+  /* max-width: 44%; */
+  width: 100%;
+}
+
+.timeline-article .timeline-author {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #242424;
+  text-align: right;
+}
+
+.timeline-article .content-left, .timeline-article .content-right {
+  position: relative;
+  width: auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .03);
+  padding: 15px 30px;
+  left: 7%;
+  width: 92%;
+}
+
+.timeline-article p {
+  margin: 0 0 0 0px;
+  padding: 0;
+  font-weight: 400;
+  color: #242424;
+  font-size: 0.8em;
+  line-height: 24px;
+  position: relative;
+}
+
+.timeline-article .content-left-container {
+  float: left;
+}
+
+/* .timeline-article .content-left:before,
   .timeline-article .content-right:before{
     position: absolute;
     top: 20px;
     font-size: 23px;
-    font-family: "FontAwesome";
-    color: #fff;
+    font-family: "Font Awesome 5 Free";
+    color: #dddddd;
   }
-  /* .timeline-article .content-left:before {
-    content: "\f0da";
-    right: -8px;
-  }
+
   .timeline-article .content-right:before {
     content: "\f0d9";
-    left: -8px;
-  } */
-  .timeline-article .meta-date-done {
-    position: absolute;
-    top: 0;
-    left: 39px;
-    width: 62px;
-    height: 62px;
-    margin-left: -31px;
-    color: #fff;
-    border-radius: 100%;
-    background: red;
+    left: -10px;
+  }  */
+
+.timeline-article .meta-date-done {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  width: 62px;
+  height: 62px;
+  margin-left: -31px;
+  color: #fff;
+  border-radius: 100%;
+  background: red;
+}
+
+.timeline-article .meta-date-doing {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  width: 62px;
+  height: 62px;
+  margin-left: -31px;
+  color: #fff;
+  border-radius: 100%;
+  background: green;
+}
+
+.timeline-article .meta-date-expected {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  width: 62px;
+  height: 62px;
+  margin-left: -31px;
+  color: #fff;
+  border-radius: 100%;
+  background: rgb(134, 134, 134);
+}
+
+.timeline-article .meta-date .date, .timeline-article .meta-date .month {
+  display: block;
+  text-align: center;
+  font-weight: 900;
+}
+
+.timeline-article .meta-date .date {
+  line-height: 60px;
+}
+
+.timeline-article .meta-date .month {
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.timeline-article .content-right .detail-timeline-step {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-article .content-right .detail-timeline-step .tile-step {
+  color: #4285F4;
+}
+
+.timeline-article .content-right .detail-timeline-step .status {
+  font-weight: 600;
+}
+
+.timeline-article .content-right .detail-timeline-step .class, .timeline-article .content-right .detail-timeline-step .date-time {
+  color: red;
+}
+
+/*===== // Vertical Timeline =====*/
+
+/*===== Resonsive Vertical Timeline =====*/
+
+@media only screen and (max-width: 768px) {
+  #learning {
+    width: 100%;
   }
-  .timeline-article .meta-date-doing {
-    position: absolute;
-    top: 0;
-    left: 39px;
-    width: 62px;
-    height: 62px;
-    margin-left: -31px;
-    color: #fff;
-    border-radius: 100%;
-    background: green;
-  }
-  .timeline-article .meta-date-expected {
-    position: absolute;
-    top: 0;
-    left: 39px;
-    width: 62px;
-    height: 62px;
-    margin-left: -31px;
-    color: #fff;
-    border-radius: 100%;
-    background: rgb(134, 134, 134);
-  }
-  .timeline-article .meta-date .date,
-  .timeline-article .meta-date .month {
-    display: block;
-    text-align: center;
-    font-weight: 900;
-  }
-  .timeline-article .meta-date .date {
-    font-size: 22px;
-    line-height: 60px;
-  }
-  .timeline-article .meta-date .month {
-    font-size: 18px;
-    line-height: 10px;
+  #conference-timeline {
+    margin-left: 0px;
   }
   .timeline-article .content-right .detail-timeline-step {
+    display: block;
+  }
+  #conference-timeline .timeline-start, #conference-timeline .timeline-end {
+    width: 42px;
+    height: 41px;
+    margin-left: 5px;
+  }
+  .timeline-article .meta-date-done, .timeline-article .meta-date-doing, .timeline-article .meta-date-expected {
+    left: 37px;
+    width: 40px;
+    height: 40px;
+  }
+  .timeline-article .meta-date .date {
+    line-height: 40px;
+  }
+  #conference-timeline .conference-center-line {
+    left: 25px;
+  }
+  .timeline-article .content-right .detail-timeline-step .tile-step {
+    margin-bottom: 0px;
+  }
+  .timeline-article .content-left, .timeline-article .content-right {
+    padding: 5px 10px;
+    left: 53px;
+    width: auto;
+    margin-right: 55px;
+  }
+  
+}
+
+/*===== // Resonsive Vertical Timeline =====*/
+
+/* ==================*/
+
+/*===== // detail class =====*/
+
+#detail-class {
+  width: 70%;
+  margin: auto;
+}
+
+#detail-class #schedule .class-type {
+  background-color: #ffff;
+}
+
+#detail-class #conference-timeline .conference-center-line {
+  z-index: 0;
+  height: 100%;
+}
+
+#detail-class #conference-timeline .detail-timeline-step .map-teacher {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+#detail-class #conference-timeline .detail-timeline-step .tile-lesson {
+  margin: 0px;
+  font-size: 1.2em;
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  #detail-class {
+    width: 100%;
+  }
+  #detail-class .row {
+    margin: 0 auto !important;
+  }
+  #detail-class #conference-timeline .detail-timeline-step .time {
     display: flex;
     justify-content: space-between;
-
+  }
+  #conference-timeline .conference-timeline-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   
-  .timeline-article .content-right .detail-timeline-step .tile-step {
-    font-size: 25px;
-    color: #4285F4;
-
-  }
-  .timeline-article .content-right .detail-timeline-step .status {
-    font-size: 20px;
-    font-weight: 600;
-    
-  }
-  .timeline-article .content-right .detail-timeline-step .class {
-    font-size: 20px;
-    color: red;
-
-  }
-  .timeline-article .content-right .detail-timeline-step .date-time {
-    font-size: 20px;
-
-    color: red;
-  }
-  /*===== // Vertical Timeline =====*/
-  
-  /*===== Resonsive Vertical Timeline =====*/
-  @media only screen and (max-width: 768px) {
-    #learning{
-        width: 100%;
-    }
-    #conference-timeline {
-        margin-left: 0px;
-    }
-    #conference-timeline .timeline-start,
-    #conference-timeline .timeline-end{
-        padding: 3px 11px;
-    }
-    .timeline-article .meta-date-done ,
-    .timeline-article .meta-date-doing,
-    .timeline-article .meta-date-expected{
-        left: 37px;
-        width: 40px;
-        height: 40px;
-    }
-    .timeline-article .meta-date .date {
-        font-size: 14px;
-        line-height: 40px;
-    }
-    #conference-timeline .conference-center-line{
-        left: 25px;
-    }
-    .timeline-article .content-right .detail-timeline-step .class,
-    .timeline-article .content-right .detail-timeline-step .date-time,
-    .timeline-article .content-right .detail-timeline-step .status{
-      font-size: 2vh;
-    }
-    .timeline-article .content-right .detail-timeline-step .tile-step{
-        font-size: 15px;
-    }
-    .timeline-article .content-left, .timeline-article .content-right{
-        padding: 5px 5px;
-        left: 53px;
-        width: calc(100vw - 73px);
-    }
-    #conference-timeline .timeline-start,
-     #conference-timeline .timeline-end{
-      padding: 8px 11px;
-      width: 50px;
-      height: 50px;
-      font-size: 11px;
-     }
-     #content .learning .title {
-      font-size: 6vw;
-     }
-     #content .learning .name_class {
-      font-size: 6vw;
-     }
-    /* #content #learning {
-        width: 100%;
-        max-width: 100%;
-        padding: 0px;
-    }
-    
-    #learning .row,#learning .row .col-12 {
-        padding: 0px;
-        margin: 0 auto !important;
-    }
-     */
-  }
-  
-  /*===== // Resonsive Vertical Timeline =====*/
-/* ==================*/
+}
