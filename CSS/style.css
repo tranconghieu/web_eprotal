@@ -49,9 +49,7 @@ body {
   width: 100%;
 }
 
-#toeic-lesson1 .tl-vacation-register{
-  text-align: right;
-}
+
 
 .myclass-title{
     color: gray;
@@ -89,8 +87,42 @@ body {
     text-align: right;
 }
 
+/*FEEDBACK-*/
+#feedback .title {
+  color: gray;
+  margin-bottom: 30px;
+}
+#feedback .new-feedback a{
+  color: green;
+  
+}
+#feedback .new-feedback {
+  text-align: right;
+}
+#feedback .cb-teacher{
+  background-color: green;
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+#feedback .cb-calendar{
+  background-color: green;
+  width: 20%;
+  float: left;
+}
+#feedback .search{
+  width: 30%;
+  padding: 5px;
+  float: right;
+}
+
+/*---TOEIC-LESSON*---*/
+#toeic-lesson1 .tl-vacation-register{
+  text-align: right;
+}
 #toeic-lesson1 .tl-vacation-register a{
   color: green;
+  
 }
 #toeic-lesson1 .border{
   padding: 10px;
@@ -134,10 +166,14 @@ body {
         width: 70%;
         margin: auto;
     }
-    #toeic-lesson1{
+    #feedback{
       width: 70%;
       margin: auto;
   }
+  #toeic-lesson1{
+    width: 70%;
+    margin: auto;
+}
   #toeic-lesson1 .border{
     padding: 20px;
   }

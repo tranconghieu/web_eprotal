@@ -9,13 +9,15 @@
   <link rel="stylesheet" href="../CSS/style.css">
   <link rel="stylesheet" href="../bootstrap//dist/css/bootstrap.min.css">
   <script src="../jquery/jquery-3.4.1.min.js"></script>
-  <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- fontaresome 5.11.2-web -->
   <link href="../fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="../fontawesome/css/brands.css" rel="stylesheet">
   <link href="../fontawesome/css/solid.css" rel="stylesheet">
   <link href="../open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+
+  <title>Feedback</title>
 </head>
 
 <body>
@@ -27,7 +29,7 @@
           <a class="nav-link menu_active" href="#">Trang chủ</a>
         </li>
         <li class="nav-item li-link">
-          <a class="nav-link " href="#">Lớp</a>
+          <a class="nav-link " href="class/myclass.html">Lớp</a>
         </li>
         <li class="nav-item li-link">
           <a class="nav-link" href="#">Lịch</a>
@@ -54,45 +56,64 @@
 
   </nav>
 
-  <div class="container-fluit" id="myclass" style="margin-top:30px">
+  <div class="container-fluit">
     <div class="row">
-      <div id="content" class="col-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="myclass-title text-center">
-                <h2>LỚP HỌC CỦA TÔI</h2>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row text-center">
-                <div class="col" style="margin: 10px;">
-                  <h4>
-                    <a href="../class/learning.html">
-                      <img src="../images/unnamed.jpg" width="160" height="150">
-                      <p>Lộ trình học tập</p>
-                    </a>
-                  </h4>
-                </div>
-                <div class="col" style="margin: 10px;">
-                  <a href="../class/myclass-class.html">
-                    <img src="../images/image-class.jpg" width="200" height="150">
-                    <h4>Lớp học</h4>
-                  </a>
-                </div>
-                <div class="col" style="margin: 10px;">
-                  <a href="../class/feedback.html">
-                    <img src="../images/images.png" width="160" height="150">
-                    <h4>Feedback</h4>
-                  </a>
-                </div>
-              </div>
-            </div>
+      <div class="col-12" id="content">
+        <div id="feedback">
+          <div class="title text-center ">
+            <h2><img src="../images/images.png" width="60" height="60"> Feedback</h2>
           </div>
+          <!--Link tạo mới feedback-->
+          <div class="new-feedback">
+            <a href="#"><i class="fas fa-plus-circle"></i> Tạo Feedback</a>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="nav-item "><a class="nav-link active" data-toggle="tab" href="#teacher">Giáo viên</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#center">Trung tâm</a></li>
+          </ul>
+
+          <br>
+          <div class="tab-content">
+
+            <!-- Giáo viên -->
+            <div id="teacher" class="tab-pane active">
+
+              <!--Chọn giáo viên + lịch-->
+              <div class="feedback-select">
+                <div class="cb-teacher">
+                  v
+                </div>
+                <div class="cb-calendar">
+                  a
+                </div>
+                <div class="search">
+                  <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                </div>
+              </div>
+
+              <!--Bảng chi tiết-->
+            
+
+            </div>
+
+
+            <!-- Trung tâm -->
+            <div id="center" class="tab-pane">
+              Đinh
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
   </div>
+
   <div class="footer">
     <p>Footer</p>
   </div>
@@ -104,7 +125,7 @@
         <a class="nav-link active" href="#"><i class="fas fa-home"></i></a>
       </li>
       <li class="nav-item li-link">
-        <a class="nav-link " href="#"><i class="fas fa-chalkboard-teacher"></i></a>
+        <a class="nav-link " href="class/myclass.html"><i class="fas fa-chalkboard-teacher"></i></a>
       </li>
       <li class="nav-item li-link">
         <a class="nav-link" href="#"><i class="fas fa-calendar-alt"></i></a>
@@ -119,5 +140,19 @@
     </ul>
   </div>
 </body>
+
+
+<script>
+// (function(){
+//   setTimeout(function(){
+//     var height_conten =  $(window).height() - 56 -20 - 50  // set do cao cua conten
+//     //debugger
+//     (height_conten <= 360) && (height_conten = 360);
+//     $('#content').css({ height : height_conten + 'px'});
+//   },800)
+
+
+// })()
+</script>
 
 </html>
