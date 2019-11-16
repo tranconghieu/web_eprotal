@@ -44,21 +44,19 @@ body {}
 
 /* hien dinh */
 
-#file{
+#file {
   margin: 10px 0px;
   width: 100%;
 }
 
-
-
-.myclass-title{
-    color: gray;
-    margin-bottom: 30px;
-    
+.myclass-title {
+  color: gray;
+  margin-bottom: 30px;
 }
-.class-type{
-    background-color: #f9f3f3f7;
-    margin-top: 20px;
+
+.class-type {
+  background-color: #f9f3f3f7;
+  margin-top: 20px;
 }
 
 .container {
@@ -91,132 +89,173 @@ body {}
 .number-session {
   text-align: right;
 }
+/*MYCLASS-CLASS*/
+
+#class .class-type a{
+  color: black;
+}
+#class .class-type a:hover{
+  text-decoration: none;
+}
 
 /*FEEDBACK-*/
+#combobox-feedback,#combobox-feedbackteacher{
+  width: 100%;
+}
+#feedback .modal .form-control {
+  width: 100%;
+}
+#feedback .modal .col-sm-6 {
+  padding: 0px !important;
+}
+#feedback .modal textarea{
+  width: 100%;
+}
+.modal-content {
+  margin-top: 20%;
+}
 #feedback .title {
   color: gray;
   margin-bottom: 30px;
 }
-#feedback .new-feedback a{
+
+#feedback .new-feedback a {
   color: green;
-  
 }
+
 #feedback .new-feedback {
   text-align: right;
 }
-#feedback .cb-teacher{
-  background-color: green;
-  width: 20%;
-  float: left;
-  margin-right: 20px;
+
+#feedback .cb-teacher .form-control {
+  width: 100% !important;
 }
-#feedback .cb-calendar{
-  background-color: green;
-  width: 20%;
-  float: left;
+#feedback .col-xs-12 {
+  margin-top: 10px;
 }
-#feedback .search{
-  width: 30%;
-  padding: 5px;
-  float: right;
+#feedback .list-feedback{
+  margin-top:20px ;
+}
+#feedback .list-feedback table {
+  width: 100%;
+}
+@media only screen and (min-width:992px){
+  #feedback {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 /*---TOEIC-LESSON*---*/
-#toeic-lesson1 .tl-vacation-register{
+
+#toeic-lesson1 .tl-vacation-register {
   text-align: right;
 }
-#toeic-lesson1 .tl-vacation-register a{
+
+#toeic-lesson1 .tl-vacation-register a {
   color: green;
-  
 }
-#toeic-lesson1 .border{
+
+#toeic-lesson1 .border {
   padding: 10px;
   margin-top: 10px;
 }
-#toeic-lesson1 .status{
+
+#toeic-lesson1 .status {
   float: right;
   color: green;
 }
-#toeic-lesson1 .attendance{
+
+#toeic-lesson1 .attendance {
   color: #00bdbd;
 }
-#toeic-lesson1 .group-content{
+
+#toeic-lesson1 .group-content {
   margin-top: 10px;
 }
 
-#toeic-lesson1 .group-content .border{
+#toeic-lesson1 .group-content .border {
   margin: 0;
   background-color: #eef3f9;
 }
-#toeic-lesson1 .btn-submit .btn-send{
-  border: none ;
+
+#toeic-lesson1 .btn-submit .btn-send {
+  border: none;
   margin-top: 10px;
   width: 100%;
-
 }
-#toeic-lesson1 .title{
+
+#toeic-lesson1 .title {
   margin-bottom: 30px;
 }
+
 .class-type .row {
   margin: 0px !important;
   padding: 0px 15px !important;
 }
+
 .row .row-top {
   padding-top: 10px !important;
 }
 
 /*---Web---*/
-@media only screen and (min-width: 769px) { 
-    #class{
-        width: 70%;
-        margin: auto;
-    }
-    #feedback{
-      width: 70%;
-      margin: auto;
-  }
-  #toeic-lesson1{
+
+@media only screen and (min-width: 769px) {
+  #class {
     width: 70%;
     margin: auto;
-}
-  #toeic-lesson1 .border{
+  }
+  
+  #toeic-lesson1 {
+    width: 70%;
+    margin: auto;
+  }
+  #toeic-lesson1 .border {
     padding: 20px;
   }
 }
-.class-type-time p{
+
+.class-type-time p {
   font-weight: 500;
 }
-#toeic-lesson1 .border{
+
+#toeic-lesson1 .border {
   border-radius: 5px;
 }
+
 /*---Phone---*/
-@media only screen and (max-width: 767px) { 
-  #toeic-lesson1{
+
+@media only screen and (max-width: 767px) {
+  #feedback .btn{
+    font-size: 3vw !important;
+  }
+  #feedback .nav a{
+    font-size: 5vw !important;
+  }
+  #toeic-lesson1 {
     width: 100% !important;
-    
-}
-    #toeic-lesson1 .title h2{
-      font-size: 20px !important;
-    }
-    #toeic-lesson1 .tl-vacation-register a{
-      font-size: 10px !important;
-    }
-    .number-session{
-        font-size: 13px !important;
-    }
-    .col-6, .col-5, .col-7, .col-12{
-        padding: 0px !important;
-    }
-    .nav-tabs a{
-        font-size: 3vw !important;
-    }
-    .class-type-time p{
-        font-size: 3vw !important;
-      
-    }
-    .class-type h5{
-        font-size: 12px !important;
-    }
+  }
+  #toeic-lesson1 .title h2 {
+    font-size: 20px !important;
+  }
+  #toeic-lesson1 .tl-vacation-register a {
+    font-size: 10px !important;
+  }
+  .number-session {
+    font-size: 13px !important;
+  }
+  .col-6, .col-5, .col-7, .col-12 {
+    padding: 0px !important;
+  }
+  .nav-tabs a {
+    font-size: 3vw !important;
+  }
+  .class-type-time p {
+    font-size: 3vw !important;
+  }
+  .class-type h5 {
+    font-size: 12px !important;
+  }
 }
 
 /*====================== */
@@ -238,30 +277,26 @@ body {}
 }
 
 @media only screen and (max-width: 768px) {
-    .footer {
-        display: none;
-        
-    }
-    .li-link {
-        display: none;
-    }
-    
-    .header_top .collapse {
-        z-index: 999999999999999999999;
-       
-        position: absolute;
-        right: 0;
-        display: inline !important;
-    }
-    .tabbar_buttom{
-        display: inline;
-    }
-    #content {
-    padding-bottom: 60px !important ;
+  .footer {
+    display: none;
+  }
+  .li-link {
+    display: none;
+  }
+  .header_top .collapse {
+    z-index: 999999999999999999999;
+    position: absolute;
+    right: 0;
+    display: inline !important;
+  }
+  .tabbar_buttom {
+    display: inline;
+  }
+  #content {
+    padding-bottom: 60px !important;
     padding-left: 0px;
-   
     padding-right: 0px;
-    }
+  }
 }
 
 .tabbar_buttom .list_icon {
@@ -522,7 +557,6 @@ body {}
     width: auto;
     margin-right: 55px;
   }
-  
 }
 
 /*===== // Resonsive Vertical Timeline =====*/
@@ -551,13 +585,10 @@ body {}
   width: 100%;
 }
 
-
 #detail-class #conference-timeline .detail-timeline-step .tile-lesson {
   margin: 0px;
   font-size: 1.2em;
-  
 }
-
 
 @media only screen and (max-width: 768px) {
   #detail-class {
@@ -574,5 +605,4 @@ body {}
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  
 }
