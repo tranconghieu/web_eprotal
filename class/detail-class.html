@@ -14,8 +14,8 @@
     <link href="../fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="../fontawesome/css/brands.css" rel="stylesheet">
     <link href="../fontawesome/css/solid.css" rel="stylesheet">
-    
-    
+
+
     <!--kendo ui import-->
     <link rel="stylesheet" href="../kendoui/styles/kendo.common-bootstrap.min.css" />
     <link rel="stylesheet" href="..//kendoui/styles/kendo.bootstrap.min.css" />
@@ -74,7 +74,8 @@
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item "><a class="nav-link active" data-toggle="tab"
                                             href="#schedule">Lịch trình</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#test">Bài tập</a>
+                                    <li class="nav-item"><a class="nav-link" id="link_tab_test" data-toggle="tab"
+                                            href="#test">Bài tập</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#infomation">Thông
                                             tin</a></li>
@@ -92,30 +93,34 @@
                                                 <div class="conference-timeline-content">
                                                     <!-- Article doing-->
                                                     <div class="timeline-article">
-                                                        <div class="content-right-container">
-                                                            <div class="content-right">
-                                                                <div class="detail-timeline-step">
-                                                                    <h4 class="tile-lesson">Bài học 1</h4>
-                                                                    <p class="time">
-                                                                        <span>20/03/2019 &nbsp;&nbsp;</span>
-                                                                        <span><i class="fas fa-clock"></i>
-                                                                            8:00 AM - 10:00 Am</span>
-                                                                    </p>
+                                                        <div class="content-right-container ">
+                                                            <div class="content_acticle">
+                                                                <a href="./toeic-lesson1.html">
+                                                                    <div class="content-right">
+                                                                        <div class="detail-timeline-step">
+                                                                            <h4 class="tile-lesson">Bài học 1</h4>
+                                                                            <p class="time">
+                                                                                <span>20/03/2019 &nbsp;&nbsp;</span>
+                                                                                <span><i class="fas fa-clock"></i>
+                                                                                    8:00 AM - 10:00 Am</span>
+                                                                            </p>
 
-                                                                </div>
-                                                                <div class="detail-timeline-step">
-                                                                    <p class="map-teacher">
-                                                                        <span class="tile-map">
-                                                                            <i class="fas fa-map-marker-alt"
-                                                                                style="color: red;"></i>
-                                                                            Rom 1
-                                                                        </span>
-                                                                        <span class="teacher">
-                                                                            <i class="fas fa-user"></i>
-                                                                            GV 1
-                                                                        </span>
-                                                                    </p>
-                                                                </div>
+                                                                        </div>
+                                                                        <div class="detail-timeline-step">
+                                                                            <p class="map-teacher">
+                                                                                <span class="tile-map">
+                                                                                    <i class="fas fa-map-marker-alt"
+                                                                                        style="color: red;"></i>
+                                                                                    Room 1
+                                                                                </span>
+                                                                                <span class="teacher">
+                                                                                    <i class="fas fa-user"></i>
+                                                                                    GV 1
+                                                                                </span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                         <div class="meta-date meta-date-doing">
@@ -126,29 +131,70 @@
                                                     <!-- Article doing-->
                                                     <div class="timeline-article">
                                                         <div class="content-right-container">
-                                                            <div class="content-right">
-                                                                <div class="detail-timeline-step">
-                                                                    <h4 class="tile-lesson">Bài học 1</h4>
-                                                                    <p class="time">
-                                                                        <span>20/03/2019 &nbsp;&nbsp;</span>
-                                                                        <span><i class="fas fa-clock"></i>
-                                                                            8:00 AM - 10:00 Am</span>
-                                                                    </p>
+                                                            <div class="content_acticle">
+                                                                <a href="./toeic-lesson1.html">
+                                                                    <div class="content-right">
+                                                                        <div class="detail-timeline-step">
+                                                                            <h4 class="tile-lesson">Bài học 1</h4>
+                                                                            <p class="time">
+                                                                                <span>20/03/2019 &nbsp;&nbsp;</span>
+                                                                                <span><i class="fas fa-clock"></i>
+                                                                                    8:00 AM - 10:00 Am</span>
+                                                                            </p>
 
-                                                                </div>
-                                                                <div class="detail-timeline-step">
-                                                                    <p class="map-teacher">
-                                                                        <span class="tile-map">
-                                                                            <i class="fas fa-map-marker-alt"
-                                                                                style="color: red;"></i>
-                                                                            Rom 1
-                                                                        </span>
-                                                                        <span class="teacher">
-                                                                            <i class="fas fa-user"></i>
-                                                                            GV 1
-                                                                        </span>
-                                                                    </p>
-                                                                </div>
+                                                                        </div>
+                                                                        <div class="detail-timeline-step">
+                                                                            <p class="map-teacher">
+                                                                                <span class="tile-map">
+                                                                                    <i class="fas fa-map-marker-alt"
+                                                                                        style="color: red;"></i>
+                                                                                    Room 1
+                                                                                </span>
+                                                                                <span class="teacher">
+                                                                                    <i class="fas fa-user"></i>
+                                                                                    GV 1
+                                                                                </span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="meta-date meta-date-doing">
+                                                            <span class="date">01</span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- // Article -->
+                                                    <!-- Article doing-->
+                                                    <div class="timeline-article">
+                                                        <div class="content-right-container">
+                                                            <div class="content_acticle">
+                                                                <a href="./toeic-lesson1.html">
+                                                                    <div class="content-right">
+                                                                        <div class="detail-timeline-step">
+                                                                            <h4 class="tile-lesson">Bài học 1</h4>
+                                                                            <p class="time">
+                                                                                <span>20/03/2019 &nbsp;&nbsp;</span>
+                                                                                <span><i class="fas fa-clock"></i>
+                                                                                    8:00 AM - 10:00 Am</span>
+                                                                            </p>
+
+                                                                        </div>
+                                                                        <div class="detail-timeline-step">
+                                                                            <p class="map-teacher">
+                                                                                <span class="tile-map">
+                                                                                    <i class="fas fa-map-marker-alt"
+                                                                                        style="color: red;"></i>
+                                                                                    Room 1
+                                                                                </span>
+                                                                                <span class="teacher">
+                                                                                    <i class="fas fa-user"></i>
+                                                                                    GV 1
+                                                                                </span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
                                                             </div>
                                                         </div>
                                                         <div class="meta-date meta-date-doing">
@@ -165,10 +211,13 @@
                                 </div>
                                 <!-- end schedule -->
                                 <div id="test" class="tab-pane fade">
-
+                                    <div id="grid-test"></div>
                                 </div>
+                                <!-- end grid-test -->
                                 <div id="infomation" class="tab-pane fade">
-
+                                    <div class="col">
+                                        
+                                    </div>
                                 </div>
 
                             </div>
@@ -208,5 +257,64 @@
         </ul>
     </div>
 </body>
+<script>
+    $(document).ready(function () {
+        $("#grid-test").kendoGrid({
+            dataSource: {
+                type: "odata",
+                transport: {
+                    read: "https://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers"
+                },
+                pageSize: 15
+            },
+            //height: 500,
+            // groupable: true,
+            resizable: true,
+            sortable: true,
+            pageable: {
+                refresh: true,
+                pageSizes: true,
+                buttonCount: 5
+            },
+            columns: [{
+                field: "ContactName",
+                template: function (data) {
+                    return '<p><i class="fas fa-file dc-file-incon"></i><span class="dc-file-test">' + data.ContactName + '</span></p>'
+                },
+                title: "Contact Name",
+                width: 240
+            }, {
+                field: "ContactTitle",
+                title: "Contact Title"
+            }, {
+                field: "CompanyName",
+                title: "Company Name"
+            }, {
+                field: "Country",
+                width: 150
+            }]
+        });
+    });
+    $('#link_tab_test').click(function () {
+        $("#grid-test").data('kendoGrid').dataSource.read();
+        //debugger
+        setTimeout(function () {
+            var height_conten = $(window).height() - $("#grid-test").offset().top - 20 - 50;
+            console.log(height_conten);
+            (height_conten <= 360) && (height_conten = 360);
+            $('#grid-test').css({ height: height_conten + 'px' });
+            $("#grid-test").getKendoGrid().resize();
+        }, 300)
+
+    })
+
+    // (function() {
+    //     setTimeout(function(){
+    //         var height = $(window).height() - $('#grid-test').offset().top - 25 -50;
+    //         $('#grid-test').css( { height :  height + 'px'}  );
+    //         $('#grid-test').getKendoGrid().resize();
+    //     },800)
+    // }())
+</script>
 
 </html>
