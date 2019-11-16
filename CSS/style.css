@@ -3,13 +3,8 @@ body {}
 /* HieuTran */
 
 .row {
-<<<<<<< HEAD
-    margin: 10px !important;
-    padding-top: 10px !important;
-=======
   margin: 10px !important;
   /* padding-top: 5px !important; */
->>>>>>> hientran2
 }
 
 .header_top {
@@ -352,10 +347,15 @@ body {}
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, .03);
   padding: 15px 30px;
-  left: 7%;
-  width: 92%;
+
+  width: 100%;
 }
 
+.timeline-article .content_acticle {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 80px;
+}
 .timeline-article p {
   margin: 0 0 0 0px;
   padding: 0;
@@ -487,11 +487,11 @@ body {}
   }
   .timeline-article .content-left, .timeline-article .content-right {
     padding: 5px 10px;
-    left: 53px;
-    width: auto;
-    margin-right: 55px;
+   
   }
-  
+  .timeline-article .content_acticle {
+    padding-left: 57px;
+  }
 }
 
 /*===== // Resonsive Vertical Timeline =====*/
@@ -544,4 +544,13 @@ body {}
     padding-bottom: 0px;
   }
   
+}
+#detail-class #grid-test .dc-file-incon {
+  color: #7b7b7b;
+}
+
+#detail-class #grid-test .dc-file-test {
+  font-weight: 600;
+  color: #679efb;
+  margin-left: 10px;
 }
